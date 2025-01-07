@@ -46,7 +46,23 @@ const Index = () => {
 
   return (
     <div style={{ backgroundColor }} className="min-h-screen transition-colors duration-300">
-      {/* Hero Section */}
+ <nav className="bg-white border-b border-gray-200 py-4">
+        <div className="container mx-auto px-4 flex justify-between items-center">
+          <div className="text-2xl	 font-semibold text-gray-800">
+            Interior Design Co.
+          </div>
+          <div className="flex items-center space-x-6 font-bold text-lg">
+            <a href="#" className="text-gray-600 hover:text-gray-800 text-lg">Home</a>
+            <a href="/productspage" className="text-gray-600 hover:text-gray-800 text-lg">Products</a>
+            <button className="text-gray-600 hover:text-gray-800">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.34 5.34a1 1 0 001 1.16H18.4a1 1 0 001-1.16L17 13M7 13L5.4 5M17 13l1.34 5.34M17 13H7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
+
       <section className="container px-4 pt-20 pb-16 text-center animate-fadeIn">
         <h1 className="text-5xl font-bold mb-6">Transform Your Space</h1>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
